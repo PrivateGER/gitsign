@@ -38,7 +38,7 @@ git config --local gpg.x509.program gitsign  # Use gitsign for signing
 git config --local gpg.format x509  # gitsign expects x509 args
 ```
 
-All respositories:
+All repositories:
 
 ```sh
 git config --global commit.gpgsign true  # Sign all commits
